@@ -1,0 +1,58 @@
+# Python
+# ------
+# Byte-compiled / optimized files
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Cache directories
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual Environments
+# --------------------
+venv/
+env/
+.venv/
+.env/
+venv.bak/
+env.bak/
+
+# Environment variables
+.env
+.env.*
+!*.env.example
+
+# Temporary Data
+# --------------
+# Ignore the temporary EEG file
+temp_eeg.csv
+
+# OS / IDE
+# --------
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE - VSCode
+.vscode/
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+*.code-workspace
+
+# Streamlit
+# ---------
+.streamlit/
